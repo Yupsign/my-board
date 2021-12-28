@@ -4,6 +4,10 @@ const About = () => {
   return (
     <div className="container">
       <div className="py-4">
+        <h2>0.4.3ver</h2>
+        <p className="lead">
+          클라이언트 - 서버 연결 'AWS,HeidiSQL연동' (진행중) 
+        </p>
         <h2>0.4.2ver</h2>
         <p className="lead">
           첫 페이지에 HOME 화면 안보이는 현상 (진행중) 

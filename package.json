@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build \"npm run json-server\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,6 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.1"    
   },
   "homepage": "https://yupsign.github.io/my-board"
 }
