@@ -4,38 +4,26 @@ const About = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>Notice</h1>
+        <h2>0.4.2ver</h2>
         <p className="lead">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rerum
-          hic ab veniam reiciendis cum repudiandae, voluptate explicabo nesciunt
-          nam accusantium? Soluta cupiditate, accusamus commodi praesentium
-          laborum dolorum libero maiores!
+          첫 페이지에 HOME 화면 안보이는 현상 (진행중) 
         </p>
-
+        <h2>0.4ver</h2>
         <p className="lead">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rerum
-          hic ab veniam reiciendis cum repudiandae, voluptate explicabo nesciunt
-          nam accusantium? Soluta cupiditate, accusamus commodi praesentium
-          laborum dolorum libero maiores!
+          고객센터 보내기 버튼 미작용 수정 (진행중)
         </p>
-        <p className="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rerum hic ab veniam reiciendis cum repudiandae, voluptate explicabo nesciunt nam accusantium? Soluta cupiditate, accusamus commodi praesentium laborum dolorum libero maiores!</p>
-      </div>
-      <div className="py-4">
-        <h1>Notice</h1>
+        <h2>0.3ver</h2>
         <p className="lead">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rerum
-          hic ab veniam reiciendis cum repudiandae, voluptate explicabo nesciunt
-          nam accusantium? Soluta cupiditate, accusamus commodi praesentium
-          laborum dolorum libero maiores!
+          회원 정보 (website) 추가 <strong><em>(완료)</em></strong>
         </p>
-
+        <h2>0.2ver</h2>
         <p className="lead">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rerum
-          hic ab veniam reiciendis cum repudiandae, voluptate explicabo nesciunt
-          nam accusantium? Soluta cupiditate, accusamus commodi praesentium
-          laborum dolorum libero maiores!
+          회원 삭제 시 화면정지 현상 <strong><em>(완료)</em></strong>
         </p>
-        <p className="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rerum hic ab veniam reiciendis cum repudiandae, voluptate explicabo nesciunt nam accusantium? Soluta cupiditate, accusamus commodi praesentium laborum dolorum libero maiores!</p>
+        <h2>0.1ver</h2>
+        <p className="lead">
+          회원 추가 버튼 미작용 현상 <strong><em>(완료)</em></strong>
+        </p>
       </div>
     </div>
   );

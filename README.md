@@ -5,4 +5,8 @@
 
 # 코드 저장 후 실행 방법
 
-  터미널 -> npm run start:dev 
+  터미널 -> npm run start:dev
+
+# 이슈
+
+  데이터베이스 생성
