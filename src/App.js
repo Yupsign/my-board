@@ -22,15 +22,13 @@ function App(props) {
     <Router>
       <div className="App">
         <Navbar />
-
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/users/add" component={AddUser} />
-          <Route exact path="/users/edit/:id" component={EditUser} />
-          <Route exact path="/users/:id" component={User} />
-          <Route component={NotFound} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/users/add" component={AddUser} />
+          <Route path="/users/edit/:id" component={EditUser} />
+          <Route path="/users/:id" component={User} />
         </Switch>
       </div>
     </Router>
